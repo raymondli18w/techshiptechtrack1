@@ -1,0 +1,8 @@
+cd "C:\Users\RaymondLi\OneDrive - 18wheels.ca\downloads may 30 2023\test6\2026\feb 2026 1\techship_system"
+
+# Create runtime.txt with EXACT content (no quotes, no extra spaces)
+echo python-3.11 > runtime.txt
+
+# Verify content is EXACTLY "python-3.11" (no extra spaces/newlines)
+Get-Content runtime.txt
+# Should show: python-3.11
